@@ -1,0 +1,65 @@
+body {
+    background-color: gray;
+}
+
+header {
+    border: solid black;
+    margin-top: 10em;
+    
+}
+
+.navBar {
+    background-color: aqua;
+    border: solid black;
+    padding: 2em;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.navBar a{
+    font-size: 2pc;
+    margin: 2em;
+}
+.info {
+    border: solid red;
+    margin-top: 2em;
+    padding: 1em;
+    display: flex;
+}
+
+.selfImg {
+    border: solid black;
+    width: 50%;
+    padding: 1em;
+} 
+
+.name {
+    border: solid black;
+    width: 50%;
+    padding: 1em;
+}
+
+.descript {
+    border: solid black;
+    width: 100%;
+    padding: 1em;
+}
+
+/* .history {
+    border: solid Blue;
+}
+
+.job {
+    border: solid black;
+}
+
+.employ {
+    border: solid black;
+}
+
+.skill {
+    border: solid green;
+}
+
+footer {}  */ 
