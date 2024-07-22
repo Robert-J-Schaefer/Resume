@@ -2,64 +2,96 @@ body {
     background-color: gray;
 }
 
-header {
-    border: solid black;
-    margin-top: 10em;
-    
-}
 
-.navBar {
-    background-color: aqua;
-    border: solid black;
-    padding: 2em;
-    position: fixed;
-    top: 0;
-    width: 100%;
-}
-
-.navBar a{
-    font-size: 2pc;
-    margin: 2em;
-}
 .info {
-    border: solid red;
-    margin-top: 2em;
-    padding: 1em;
+    border: 5px solid goldenrod;
+    background-color: black;
+    margin-top: 8em;
+    padding: 2em;
+    padding-bottom: 0em;
     display: flex;
+    justify-items: center;
+    flex-direction: column;
+}
+
+.imgContainer{
+    background-color: lightgray;
+    display: flex;
+    flex-direction: row;
+    padding: 1em;
+    
 }
 
 .selfImg {
     border: solid black;
     width: 50%;
     padding: 1em;
+    padding-bottom: 0em;
 } 
+
+.selfImg img{
+    border: solid black ;
+    border-radius: 50%;
+    padding: 1em;
+}
 
 .name {
     border: solid black;
     width: 50%;
     padding: 1em;
+    padding-bottom: 0em;
 }
 
 .descript {
+    background-color: lightgray;
     border: solid black;
-    width: 100%;
+    padding: 1em;
+    padding-top: 0em;
+    margin: 1em;
+}
+
+.detailContainer{
+    background-color: black;
+    border: 5px solid goldenrod;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 2000px;
+    padding: 2em;
+}
+
+.history{
+    background-color: lightgray;
+    border: 5px solid goldenrod;
+    width: 500px;
+}
+
+.jobs{
+    border: 5px solid black;
+    margin: 1em;
     padding: 1em;
 }
 
-/* .history {
-    border: solid Blue;
+.school{
+    border: 5px solid black;
+    margin: 1em;
+    padding: 1em;
 }
 
-.job {
-    border: solid black;
+.skill{
+    background-color: lightgray;
+    border: 5px solid goldenrod;
+    width: 500px;
 }
 
-.employ {
-    border: solid black;
+.code{
+    border: 5px solid black;
+    margin: 1em;
+    padding: 1em;
 }
 
-.skill {
-    border: solid green;
+.acomplish{
+    border: 5px solid black;
+    margin: 1em;
+    padding: 1em;
 }
-
-footer {}  */ 
